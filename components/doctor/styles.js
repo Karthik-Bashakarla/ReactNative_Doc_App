@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { StyleSheet } from "react-native";
 import colors from "../../constants/colors";
 
@@ -8,6 +7,35 @@ const styles = StyleSheet.create({
     width: "100%",
     paddingHorizontal: 8,
   },
+  chatlist_container: {
+    marginTop: 20,
+    backgroundColor: "red",
+  },
+  inner_chatlist_container: {
+    backgroundColor: "green",
+    marginTop: 10,
+    paddingHorizontal: 20,
+    display: "flex",
+    flexDirection: "row",
+  },
+  chat: {
+    flex: 1,
+    justifyContent: "center",
+    marginLeft: 10,
+    backgroundColor: "blue",
+  },
+  doc_name: {
+    color: colors.textColor,
+    fontWeight: "bold",
+    fontSize: 15,
+    marginBottom: 2,
+  },
+  message: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    backgroundColor: "orange",
+  },
   profile: {
     width: 80,
     height: 104,
@@ -15,12 +43,21 @@ const styles = StyleSheet.create({
     display: "flex",
     alignItems: "center",
     marginHorizontal: 6,
+    backgroundColor: "red",
+  },
+  chatlist_profile: {
+    width: 70,
+    height: 70,
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+    // marginHorizontal: 6,
+    backgroundColor: "red",
   },
 
   profile_img: {
     width: 64,
     height: 64,
-    marginBottom: 8,
   },
   outer: {
     position: "absolute",
@@ -45,6 +82,12 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: "rgba(255,255,255,0.7)",
     textAlign: "center",
+    marginTop: 8,
+    backgroundColor: "black",
+  },
+  no_text: {
+    display: "none",
+    margin: 0,
   },
 });
 

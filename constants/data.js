@@ -4,6 +4,7 @@ const doctorsData = [
     name: "Margaret Wells",
     email: "Sincere@april.biz",
     image: require("../assets/doc1.png"),
+    isOnline: true,
     address: {
       street: "Kulas Light",
       suite: "Apt. 556",
@@ -22,6 +23,7 @@ const doctorsData = [
     name: "Christine Bradley",
     email: "Shanna@melissa.tv",
     image: require("../assets/doc2.png"),
+    isOnline: true,
     address: {
       street: "Victor Plains",
       suite: "Suite 879",
@@ -40,6 +42,7 @@ const doctorsData = [
     name: "Dylan Oliver",
     email: "Nathan@yesenia.net",
     image: require("../assets/doc3.png"),
+    isOnline: true,
     address: {
       street: "Douglas Extension",
       suite: "Suite 847",
@@ -58,6 +61,7 @@ const doctorsData = [
     name: "Marguerite Sutton",
     email: "Julianne.OConner@kory.org",
     image: require("../assets/doc4.png"),
+    isOnline: true,
     address: {
       street: "Hoeger Mall",
       suite: "Apt. 692",
@@ -76,6 +80,7 @@ const doctorsData = [
     name: "Chelsey Dietrich",
     email: "Lucio_Hettinger@annie.ca",
     image: require("../assets/doc5.png"),
+    isOnline: true,
     address: {
       street: "Skiles Walks",
       suite: "Suite 351",
@@ -94,6 +99,7 @@ const doctorsData = [
     name: "Mrs. Dennis Schulist",
     email: "Karley_Dach@jasper.info",
     image: require("../assets/doc6.png"),
+    isOnline: true,
     address: {
       street: "Norberto Crossing",
       suite: "Apt. 950",
@@ -112,6 +118,7 @@ const doctorsData = [
     name: "Kurtis Weissnat",
     email: "Telly.Hoeger@billy.biz",
     image: require("../assets/doc7.png"),
+    isOnline: true,
     address: {
       street: "Rex Trail",
       suite: "Suite 280",
@@ -130,6 +137,7 @@ const doctorsData = [
     name: "Nicholas Runolfsdottir V",
     email: "Sherwood@rosamond.me",
     image: require("../assets/doc8.png"),
+    isOnline: true,
     address: {
       street: "Ellsworth Summit",
       suite: "Suite 729",
@@ -148,6 +156,7 @@ const doctorsData = [
     name: "Glenna Reichert",
     email: "Chaim_McDermott@dana.io",
     image: require("../assets/doc1.png"),
+    isOnline: true,
     address: {
       street: "Dayna Park",
       suite: "Suite 449",
@@ -166,6 +175,7 @@ const doctorsData = [
     name: "Clementina DuBuque",
     email: "Rey.Padberg@karina.biz",
     image: require("../assets/doc2.png"),
+    isOnline: true,
     address: {
       street: "Kattie Turnpike",
       suite: "Suite 198",

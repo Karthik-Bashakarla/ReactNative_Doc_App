@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import { View} from "react-native";
 import { FlatList } from "react-native";
 
 import data from "../../constants/data.js";
 import Profile from "./Profile";
 import styles from "./styles";
 
-const FavDoc = () => {
+const FavDoc = ({isChat}) => {
   return (
     <View style={styles.container}>
       <FlatList
@@ -14,7 +14,8 @@ const FavDoc = () => {
           <Profile
             name={item.item.name}
             img={item.item.image}
-            isOnline={true}
+            isOnline={item.item.isOnline}
+            isChat={isChat}
           />
         )}
         keyExtractor={(item) => item.id}
